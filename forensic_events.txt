@@ -1,0 +1,6 @@
+101|24-09-2026|09:15|Login|INFO|admin|User logged into the system
+102|24-09-2026|09:22|File Access|INFO|admin|confidential.txt was opened
+103|24-09-2026|09:30|USB Connection|INFO|admin|USB device connected
+104|24-09-2026|09:45|File Modification|INFO|admin|confidential.txt modified
+106|24-09-2026|10:15|Logout|INFO|admin|User logged out of system
+107|24-09-2026|10:30|System Shutdown|INFO|admin|System turned off

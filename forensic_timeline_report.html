@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Digital Forensic Timeline Report (Enterprise)</title>
+<style>
+body { font-family: 'Segoe UI', Arial, sans-serif; background: #f4f7fa; color: #222; margin: 30px; }
+h1 { color: #1b365d; text-align: center; font-size: 26px; }
+table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+th, td { padding: 12px 16px; border: 1px solid #e0e0e0; text-align: left; }
+th { background: #1b365d; color: white; text-transform: uppercase; font-size: 13px; }
+tr:nth-child(even) { background: #f9fbfd; }
+.CRITICAL { color: #d9534f; font-weight: bold; }
+.WARNING { color: #f0ad4e; font-weight: bold; }
+.INFO { color: #5bc0de; font-weight: bold; }
+</style>
+</head>
+<body>
+<h1>DIGITAL FORENSIC EVENT TIMELINE REPORT</h1>
+<p><strong>Total Log Entries:</strong> 6</p>
+<table>
+<tr><th>Event ID</th><th>Date & Time</th><th>Type</th><th>Severity</th><th>User</th><th>Description</th><th>Hash Signature</th></tr>
+<tr><td>101</td><td>24-09-2026 09:15</td><td>Login</td><td class='INFO'>INFO</td><td>admin</td><td>User logged into the system</td><td><code>B0A36CB216A90C12</code></td></tr>
+<tr><td>102</td><td>24-09-2026 09:22</td><td>File Access</td><td class='INFO'>INFO</td><td>admin</td><td>confidential.txt was opened</td><td><code>D34B25CA64D954FD</code></td></tr>
+<tr><td>103</td><td>24-09-2026 09:30</td><td>USB Connection</td><td class='INFO'>INFO</td><td>admin</td><td>USB device connected</td><td><code>890FE41695B0AD2E</code></td></tr>
+<tr><td>104</td><td>24-09-2026 09:45</td><td>File Modification</td><td class='INFO'>INFO</td><td>admin</td><td>confidential.txt modified</td><td><code>D576BB14D927A163</code></td></tr>
+<tr><td>106</td><td>24-09-2026 10:15</td><td>Logout</td><td class='INFO'>INFO</td><td>admin</td><td>User logged out of system</td><td><code>F6F02E1A50F17B82</code></td></tr>
+<tr><td>107</td><td>24-09-2026 10:30</td><td>System Shutdown</td><td class='INFO'>INFO</td><td>admin</td><td>System turned off</td><td><code>C19E8E45A2EACDF6</code></td></tr>
+</table>
+</body>
+</html>

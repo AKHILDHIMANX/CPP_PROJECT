@@ -1,0 +1,21 @@
+# Executables & object files
+forensic_analyzer
+*.o
+*.out
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/

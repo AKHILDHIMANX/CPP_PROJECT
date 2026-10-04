@@ -1,0 +1,56 @@
+[
+  {
+    "eventId": 101,
+    "date": "24-09-2026",
+    "time": "09:15",
+    "eventType": "Login",
+    "severity": "INFO",
+    "user": "admin",
+    "description": "User logged into the system"
+  },
+  {
+    "eventId": 102,
+    "date": "24-09-2026",
+    "time": "09:22",
+    "eventType": "File Access",
+    "severity": "INFO",
+    "user": "admin",
+    "description": "confidential.txt was opened"
+  },
+  {
+    "eventId": 103,
+    "date": "24-09-2026",
+    "time": "09:30",
+    "eventType": "USB Connection",
+    "severity": "INFO",
+    "user": "admin",
+    "description": "USB device connected"
+  },
+  {
+    "eventId": 104,
+    "date": "24-09-2026",
+    "time": "09:45",
+    "eventType": "File Modification",
+    "severity": "INFO",
+    "user": "admin",
+    "description": "confidential.txt modified"
+  },
+  {
+    "eventId": 106,
+    "date": "24-09-2026",
+    "time": "10:15",
+    "eventType": "Logout",
+    "severity": "INFO",
+    "user": "admin",
+    "description": "User logged out of system"
+  },
+  {
+    "eventId": 107,
+    "date": "24-09-2026",
+    "time": "10:30",
+    "eventType": "System Shutdown",
+    "severity": "INFO",
+    "user": "admin",
+    "description": "System turned off"
+  }
+]
